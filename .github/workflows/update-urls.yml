@@ -35,4 +35,4 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add url.json buye.json
-          git commit -m "更新 url.json 和 buye.json" && git push
+          git commit -m "更新 url.json 和 buye.json" && git push || echo 'no update'
